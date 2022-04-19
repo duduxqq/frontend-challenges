@@ -1,0 +1,103 @@
+body {
+    display: flex;
+}
+header {
+width: 100%;
+flex: 1;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+    flex-direction: column;
+}
+
+.pri-img img{
+width: 720px;
+ height: 902px;
+}
+
+
+.text-login h1{
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #1A202C;
+}
+
+.text-login input {
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 5px;
+width: 350px;
+height: 50px;
+}
+
+.text-login h3 {
+width: 44px;
+height: 19px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #1A202C;
+}
+.buttons input {
+    width: 15px;
+    height: 15px;
+    background: #F7FAFC;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;;
+    
+}
+
+#button1 {
+    width: 347px;
+    height: 50px;
+    background: #04C45C;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#button2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 347px;
+    height: 50px;
+    background: #1A202C;
+    border-radius: 5px;
+    border:none;
+    
+  
+}
+
+@media(max-width: 1084px) {
+    img {display: none}
+}
+@media(max-height: 704px) {
+    img {display: none}
+}
